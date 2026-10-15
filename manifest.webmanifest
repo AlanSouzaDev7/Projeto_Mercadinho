@@ -1,0 +1,13 @@
+{
+  "name": "Mercadinho — Calculadora de Compras",
+  "short_name": "Mercadinho",
+  "description": "Defina quanto pode gastar e acompanhe o total das compras em tempo real.",
+  "lang": "pt-BR",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
