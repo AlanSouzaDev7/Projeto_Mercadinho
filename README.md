@@ -1,5 +1,9 @@
 # 🛒 Mercadinho
 
+### 👉 [Abrir o Mercadinho](https://alansouzadev7.github.io/Projeto_Mercadinho/)
+
+**https://alansouzadev7.github.io/Projeto_Mercadinho/** — abra no celular e use "Adicionar à Tela de Início" para usar como app (funciona offline).
+
 Calculadora de compras de mercado inspirada na Calculadora do iPhone.
 Defina quanto você pode gastar, digite o preço de cada produto e acompanhe **em tempo real** quanto já gastou e quanto ainda resta. Se passar do limite, o app avisa **quanto passou** e **quanto vai precisar a mais** para pagar — e ainda sugere qual item tirar.
 

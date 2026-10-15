@@ -1,6 +1,6 @@
 // Service worker: deixa o Mercadinho funcionando mesmo sem internet no mercado.
 // Ao alterar arquivos do site, aumente a versão abaixo.
-const CACHE = 'mercadinho-v2';
+const CACHE = 'mercadinho-v3';
 const FILES = ['./', 'index.html', 'css/style.css', 'js/app.js', 'icon.svg', 'manifest.webmanifest'];
 
 self.addEventListener('install', (e) => {
