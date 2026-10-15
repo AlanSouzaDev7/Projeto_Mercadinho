@@ -30,6 +30,18 @@ No computador também dá para usar o teclado: números, `Enter` (adicionar), `*
 - Funciona offline e pode ser instalado na tela inicial (PWA)
 - Sem dependências: HTML, CSS e JavaScript puros
 
+## Aparelhos testados
+
+Layout validado (sem rolagem lateral, sem sobreposição, teclas com no mínimo 44px de altura) em:
+
+| Tipo | Tamanhos |
+|---|---|
+| iPhone | SE (375×667 e 375×548 com barras do Safari), 15/16 (393×852 e 393×659), Pro Max (430×932) |
+| Android | Galaxy S (360×780 / 360×640), Pixel (412×915) |
+| Celular deitado | 667×375, 852×393, 915×412 — layout em duas colunas |
+| iPad | mini (744×1133), Air (820×1180), Pro 12,9" (1024×1366), em pé e deitado |
+| Galaxy Tab | S9 (800×1280), A (712×1138), deitado (1280×800) |
+
 ## Rodando localmente
 
 Abra o `index.html` no navegador, ou sirva a pasta:
@@ -43,6 +55,8 @@ e acesse http://localhost:5500.
 ## Publicando no GitHub Pages
 
 No repositório: **Settings → Pages → Branch: `main` / root → Save**.
+
+Ao publicar mudanças, aumente a versão em `?v=` no `index.html` e a constante `CACHE` no `sw.js`, para que os celulares baixem os arquivos novos.
 
 ## Estrutura
 

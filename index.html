@@ -11,7 +11,7 @@
   <link rel="icon" href="icon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="icon.svg">
   <link rel="manifest" href="manifest.webmanifest">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.css?v=6">
 </head>
 <body>
   <main class="app" id="app" data-mode="setup">
@@ -76,6 +76,7 @@
       <p class="empty" id="empty">Digite o preço do produto e toque em <strong>+</strong></p>
     </section>
 
+    <div class="calc">
     <!-- Visor -->
     <section class="display" aria-live="polite">
       <p class="preview" id="preview">&nbsp;</p>
@@ -111,12 +112,14 @@
       <button type="button" class="key" data-key="00">00</button>
     </section>
 
+    </div>
+
     <div class="toast" id="toast" role="status" hidden>
       <span id="toastText"></span>
       <button type="button" class="toast-btn" id="toastUndo">Desfazer</button>
     </div>
   </main>
 
-  <script src="js/app.js"></script>
+  <script src="js/app.js?v=6"></script>
 </body>
 </html>
